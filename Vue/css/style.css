@@ -1,0 +1,749 @@
+
+@font-face{
+	font-family: gabriola;
+    src: url(../fonts/gabriola.ttf);
+}
+
+@font-face{
+	font-family: AveFedan;
+    src: url(../fonts/AveFedan.ttf);
+}
+
+@font-face{
+	font-family: Pacifico;
+    src: url(../fonts/Pacifico.ttf);
+}
+body {
+	overflow-x: hidden;
+}
+
+a{
+	text-decoration: none;
+}
+
+.element-menu{
+	font-family: gabriola;
+	font-size: 20px;
+	left: 10%;
+}
+
+
+.logo-accueil{
+	position: absolute;
+	top: 1px;
+    right: 10%;
+}
+
+.function-button{
+	font-family: gabriola;
+	font-size: 38px;
+	top: 0px;
+	margin: auto;
+	position: absolute;
+	background-color: grey;
+	width: 200px;
+	left: 50%;
+	margin-left: -100px;
+	border-radius: 10px 10px 75px 75px / 50px 50px 50px 50px;
+}
+
+.panel-offers{
+	background-color: white;
+}
+
+.last-offers{
+	width: 100%;
+	height: 600px;
+	background-color: white;
+
+}
+
+.last-offers-list{
+	height: 60px;
+	width: 100%;
+	background-color: #F7F7F7;
+}
+
+.last-offers-list1{
+	height: 60px;
+	width: 100%;
+	background-color: #EEEBFF;
+}
+
+.last-offers-list:hover{
+	background-color: #FCFCFC;
+	cursor: pointer;
+}
+
+.last-offers-list1:hover{
+	background-color: #f8f7ff;
+}
+
+.best-offers{
+	width: 100%;
+	height: 600px;
+	background-color: white;
+}
+
+.best-offer-1{
+	background-color: white;
+	height: 200px;
+	font-family: Pacifico;
+	text-align: center;
+	line-height: 200px;
+	font-size: 40px;
+	color: #253c5b;
+	width: 100%;
+	background-image: url("../img/index/bestoffers1.jpg") ;
+    background-position: center top;
+    background-size: 100% auto;
+transition-property: transform;
+	-webkit-transition-property: transform;
+    transition-duration: .2s;
+	transition-timing-function: ease-out;
+}
+
+.best-offer-1:hover{
+	background-image: url("../img/index/active/bestoffers1.jpg");
+	transform: scale(1.1);
+   	-webkit-transform: scale(1.1);
+	z-index: 1;
+}
+
+.best-offer-2{
+	background-color: white;
+	height: 200px;
+	font-family: Pacifico;
+	text-align: center;
+	line-height: 200px;
+	font-size: 40px;
+	color: #253c5b;
+	width: 100%;
+	background-image: url("../img/index/bestoffers2.jpg");
+    background-position: center top;
+    background-size: 100% auto;
+transition-property: transform;
+	-webkit-transition-property: transform;
+    transition-duration: .2s;
+	transition-timing-function: ease-out;
+}
+
+.best-offer-2:hover{
+	background-image: url("../img/index/active/bestoffers2.jpg");
+	transform: scale(1.1);
+   	-webkit-transform: scale(1.1);
+	z-index: 1;
+}
+
+.best-offer-3{
+	background-color: white;
+	height: 200px;
+	font-family: Pacifico;
+	text-align: center;
+	line-height: 200px;
+	font-size: 40px;
+	color: #253c5b;
+	width: 100%;
+	background-image: url("../img/index/bestoffers3.jpg");
+    background-position: center top;
+    background-size: 100% auto;
+transition-property: transform;
+	-webkit-transition-property: transform;
+    transition-duration: .2s;
+	transition-timing-function: ease-out;
+}
+
+.best-offer-3:hover{
+	background-image: url("../img/index/active/bestoffers3.jpg");
+	transform: scale(1.1);
+   	-webkit-transform: scale(1.1);
+	z-index: 1;
+}
+
+.best-offer-4{
+	background-color: white;
+	height: 200px;
+	font-family: Pacifico;
+	text-align: center;
+	line-height: 200px;
+	font-size: 40px;
+	color: #253c5b;
+	width: 100%;
+	background-image: url("../img/index/bestoffers4.jpg");
+    background-position: center top;
+    background-size: 100% auto;
+transition-property: transform;
+	-webkit-transition-property: transform;
+    transition-duration: .2s;
+	transition-timing-function: ease-out;
+}
+
+.best-offer-4:hover{
+	background-image: url("../img/index/active/bestoffers4.jpg");
+	transform: scale(1.1);
+   	-webkit-transform: scale(1.1);
+	z-index: 1;
+}
+
+.best-offer-5{
+	background-color: white;
+	height: 200px;
+	font-family: Pacifico;
+	text-align: center;
+	line-height: 200px;
+	font-size: 40px;
+	color: #253c5b;
+	width: 100%;
+	background-image: url("../img/index/bestoffers5.jpg");
+    background-position: center top;
+    background-size: 100% auto;
+transition-property: transform;
+	-webkit-transition-property: transform;
+    transition-duration: .2s;
+	transition-timing-function: ease-out;
+}
+
+.best-offer-5:hover{
+	background-image: url("../img/index/active/bestoffers5.jpg");
+	transform: scale(1.1);
+   	-webkit-transform: scale(1.1);
+	z-index: 1;
+}
+
+
+.center-button{
+	width: 100%;
+	margin: auto;
+
+}
+
+.mon-carrousel{
+	position: absolute;
+}
+
+.navbar{
+	margin-bottom: 0px;
+}
+
+header{
+	border-bottom: 1px solid black;
+}
+
+.navbar-default{
+	background-color: rgba(255,255,255,0);
+	border: none;
+}
+
+#mycarousel{
+	position: relative;
+}
+
+.panel-articles{
+	background-color: white;
+}
+
+.famous-article{
+	height: 400px;
+	background-color: white;
+	background-image: url("../img/index/article.png");
+    background-position: center top;
+    background-size: 100% auto;
+	text-align: center;
+	vertical-align: center;
+	font-family: pacifico;
+}
+
+.famous-article-titre{
+	height: 150px;
+	font-size: 50px;
+	top: 70px;
+	margin-top:-25px;/* poussé de la moitié de hauteur du référent */
+}
+
+.famous-article-description{
+	height: 250px;
+	font-size: 30px;
+	margin-left: 20px;
+	top: 20px;
+	padding-right: 40px;
+	font-family:gabriola;
+}
+
+.ramdom-article{
+	width: 100%;
+	height: 200px;
+	background-color: white;
+	background-image: url("../img/index/open-book.jpg");
+    background-position: center top;
+    background-size: 100% auto;
+}
+
+.ramdom-article-titre{
+	height: 75px;
+	color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	line-height: 75px;
+	text-align: center;
+	font-size: 40px;
+	font-family: pacifico;
+}
+
+.ramdom-article-description{
+	height: 125px;
+	text-align: center;
+	font-size: 25px;
+	padding-right: 40px;
+	font-family: gabriola;
+}
+
+.last-article-one{
+	height: 200px;
+	background-color: white;
+	background-image: url("../img/index/last1.jpg");font-family: Pacifico;
+	text-align: center;
+	line-height: 200px;
+	font-size: 40px;
+	color: #253c5b;
+    background-position: center top;
+    background-size: 100% auto;
+transition-property: transform;
+	-webkit-transition-property: transform;
+    transition-duration: .2s;
+	transition-timing-function: ease-out;
+}
+
+.last-article-one:hover{
+	background-image: url("../img/index/active/last1.jpg");
+	transform: scale(1.1);
+   	-webkit-transform: scale(1.1);
+	z-index: 1;
+}
+
+.last-article-two{
+	height: 200px;
+	background-color: white;
+	background-image: url("../img/index/last2.jpg");font-family: Pacifico;
+	text-align: center;
+	line-height: 200px;
+	font-size: 40px;
+	color: #253c5b;
+    background-position: center top;
+    background-size: 100% auto;
+transition-property: transform;
+	-webkit-transition-property: transform;
+    transition-duration: .2s;
+	transition-timing-function: ease-out;
+}
+
+.last-article-two:hover{
+	background-image: url("../img/index/active/last2.jpg");
+	transform: scale(1.1);
+   	-webkit-transform: scale(1.1);
+	z-index: 1;
+}
+
+.last-article-three{
+	height: 200px;
+	background-color: white;
+	background-image: url("../img/index/last3.jpg");font-family: Pacifico;
+	text-align: center;
+	line-height: 200px;
+	font-size: 40px;
+	color: #253c5b;
+    background-position: center top;
+    background-size: 100% auto;
+transition-property: transform;
+	-webkit-transition-property: transform;
+    transition-duration: .2s;
+	transition-timing-function: ease-out;
+}
+
+.last-article-three:hover{
+	background-image: url("../img/index/active/last3.jpg");
+	transform: scale(1.1);
+   	-webkit-transform: scale(1.1);
+	z-index: 1;
+}
+
+.footer{
+	background-color: white;
+	color: black;
+	height: 200px;
+	width: 100%;
+
+}
+
+.image-contact{
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	left: 50%;
+	margin-left: -50px;
+	margin-top: -50px;
+background-image: url("../img/contact.png");
+background-size: 100px;
+transition-property: transform;
+	-webkit-transition-property: transform;
+    transition-duration: .2s;
+	transition-timing-function: ease-out;
+	z-index: 1;
+}
+
+.image-contact:hover{
+	background-image: url("../img/contact-hover.png");
+	transform: scale(1.1);
+   	-webkit-transform: scale(1.1);
+}
+
+.bandeau-footer{
+	background-color: #253c5b;
+	width: 100%;
+	height:50px;
+	position: relative;
+	color: white;
+	text-align: center;
+	 line-height: 50px;
+}
+
+.description-index{
+	text-align: center;
+	margin-top: 90px;
+	margin-bottom: 90px;
+}
+
+.background-footer{
+
+	background-image: url("../img/footer.png");
+background-size: auto 100%;
+border-top: 3px;
+	border-bottom: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-style: solid;
+	border-color: #253c5b;
+}
+
+.titre-offres{
+	text-align: center;
+	vertical-align: center;
+	border-top: 5px;
+	border-bottom: 5px;
+	border-left: 0px;
+	border-right: 0px;
+	border-style: solid;
+	border-color: #253c5b;
+	margin: 1px 0;
+	font-family: gabriola;
+}
+
+.titre-offres-last{
+	font-size: 90px;
+}
+
+.titre-offres-categories{
+	font-size: 45px;
+}
+
+
+.titre-articles{
+	text-align: center;
+	vertical-align: center;
+	border-top: 5px;
+	border-bottom: 5px;
+	border-left: 0px;
+	border-right: 0px;
+	border-style: solid;
+	border-color: #253c5b;
+	margin: 1px 0;
+font-size: 90px;
+	font-family: gabriola;
+}
+
+.titre-articles-offre{
+	text-align: center;
+	vertical-align: center;
+	color: white;
+	background-color: #253c5b;
+	margin: 1px 0;
+font-size: 90px;
+	font-family: gabriola;
+}
+
+.filtre-list-offre{
+
+}
+
+.logo-squid-footer{
+	right: 10%;
+	bottom: 10%;
+	height: 161px;
+	position: relative;
+}
+
+.content-footer{
+	text-align: center;
+	vertical-align: center;
+	margin: 30px 0;
+	font-family: gabriola;
+	font-size: 18px;
+}
+
+.content-footer-titre{
+	font-size: 25px;
+}
+
+.content-list-offres{
+	text-align: center;
+	vertical-align: center;
+	font-family: gabriola;
+	font-size: 18px;
+}
+
+.content-list-offres-titre{
+	font-size: 30px;
+}
+
+.content-list-offres-offre{
+	text-align: center;
+	vertical-align: center;
+	margin: 10px 0;
+	font-family: gabriola;
+	font-size: 18px;
+}
+
+.content-list-offres-titre-offre{
+	font-size: 22px;
+
+}
+
+.introduction-index{
+	text-align: center;
+	vertical-align: center;
+	margin: 1px 0;
+	font-size: 25px;
+	font-family: gabriola;
+	padding-left: 20%;
+	padding-right: 20%;
+	margin-top: 50px;
+	margin-bottom: 75px;
+}
+
+.introduction-index-bienvenue{
+	font-size: 40px;
+	text-align: left;
+	margin-left: 25%;
+}
+
+.content-offre{
+	overflow: hidden;
+}
+
+button{
+	width: 100%;
+	height: 50px;
+}
+
+.content-offre-filtre{
+	text-align: center;
+}
+
+.content-offre-titre{
+	height: 100px;
+}
+
+.content-offre-liste{
+	height: 50px;
+	transition-property: transform;
+	-webkit-transition-property: transform;
+    transition-duration: .2s;
+	transition-timing-function: ease-out;
+	z-index: 1;
+}
+
+.content-offre-liste-offre{
+	height: 50px;
+	transition-property: transform;
+	-webkit-transition-property: transform;
+    transition-duration: .2s;
+	transition-timing-function: ease-out;
+	z-index: 1;
+}
+
+.content-offre-liste:hover{
+	background-color: rgba(255, 255, 255, 0.4);
+}
+
+.content-offre-liste-offre:hover{
+	background-color: rgba(255, 255, 255, 0.4);
+	cursor: pointer;
+}
+
+.content-offre-liste-back{
+	background-color: #efe7df;
+}
+
+.header-back{
+	background-color: #efe7df;
+
+}
+
+.content-offre-filtre-back{
+	background-color: #e8ebee;
+}
+
+.emplacement-login{
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 100px;
+	margin-bottom: 100px;
+
+}
+
+.emplacement-signin{
+	margin-top: 50px;
+	margin-bottom: 100px;
+	text-align: center;
+}
+
+.background-login{
+	background-image: url("../img/connexion/background-login.png");
+	background-size: 100% auto;
+}
+
+.background-signin{
+	background-image: url("../img/inscription/background-signin.png");
+	background-size: 100% auto;
+}
+
+.hexagon {
+  position: relative;
+  width: 120px;
+  height: 69.28px;
+  margin: 34.64px 0;
+  background-size: auto 129.3265px;
+  background-position: center;
+  box-shadow: 0 0 40px rgba(0,0,0,1);
+  border-left: solid 4px #333333;
+  border-right: solid 4px #333333;
+}
+
+.hexagon-bg-1 {
+  background-image: url(../img/offre/theatre.jpg);
+  background-color: #311012;
+}
+
+.hexagon-bg-1:hover {
+  background-image: url(../img/offre/hover/theatre.jpg);
+  background-color: #311012;
+}
+
+.hexagon-bg-2 {
+  background-image: url(../img/offre/photo.jpg);
+  background-color: #635e58;
+}
+
+.hexagon-bg-2:hover {
+  background-image: url(../img/offre/hover/photo.jpg);
+  background-color: #635e58;
+}
+
+.hexagon-bg-3 {
+  background-image: url(../img/offre/camera.jpg);
+  background-color: #f3b300;
+}
+
+.hexagon-bg-3:hover {
+  background-image: url(../img/offre/hover/camera.jpg);
+  background-color: #f3b300;
+}
+
+.hexagon-bg-4 {
+  background-image: url(../img/offre/art.jpg);
+  background-color: #3f2e31;
+}
+
+.hexagon-bg-4:hover {
+  background-image: url(../img/offre/hover/art.jpg);
+  background-color: #3f2e31J;
+}
+
+.hexagon-bg-5 {
+  background-image: url(../img/offre/musique.jpg);
+  background-color: #4b463e;
+}
+
+.hexagon-bg-5:hover {
+  background-image: url(../img/offre/hover/musique.jpg);
+  background-color: #4b463e;
+}
+
+.hexTop,
+.hexBottom {
+  position: absolute;
+  z-index: 1;
+  width: 84.85px;
+  height: 84.85px;
+  overflow: hidden;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background: inherit;
+  left: 13.57px;
+  box-shadow: 0 0 40px rgba(0,0,0,1);
+}
+
+/*counter transform the bg image on the caps*/
+.hexTop:after,
+.hexBottom:after {
+  content: "";
+  position: absolute;
+  width: 112.0000px;
+  height: 64.66323014923809px;
+  -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-32.3316px);
+  -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-32.3316px);
+  transform:          rotate(45deg) scaleY(1.7321) translateY(-32.3316px);
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+  background: inherit;
+}
+
+.hexTop {
+  top: -42.4264px;
+  border-top: solid 5.6569px #333333;
+  border-right: solid 5.6569px #333333;
+}
+
+.hexTop:after {
+  background-position: center top;
+}
+
+.hexBottom {
+  bottom: -42.4264px;
+  border-bottom: solid 5.6569px #333333;
+  border-left: solid 5.6569px #333333;
+}
+
+.hexBottom:after {
+  background-position: center bottom;
+}
+
+.hexagon:after {
+  content: "";
+  position: absolute;
+  top: 2.3094px;
+  left: 0;
+  width: 112.0000px;
+  height: 64.6632px;
+  z-index: 2;
+  background: inherit;
+}
+
+.hexagon-2{
+	margin: auto;
+}
+
+.offre-header-back{
+
+	background-image: url(../img/offre/back.png);
+}
