@@ -13,7 +13,7 @@ $xml_rss->setAttribute("version", "2.0");
 
 $xml_channel = $xml->createElement("channel");
 $xml_channel->appendChild($xml->createElement("title", "MegaCastings"));
-$xml_channel->appendChild($xml->createElement("link", "http://172.16.2.21/Offre.php"));
+$xml_channel->appendChild($xml->createElement("link", "http://172.16.2.21/Vue/offre.php"));
 $xml_channel->appendChild($xml->createElement("description", "Offers RSS stream."));
 
 $listOffers = $bdd->query('SELECT * FROM Offre WHERE Validation = 1 ORDER BY Identifiant DESC')->fetchAll();
@@ -22,7 +22,7 @@ foreach ($listOffers as $item) {
 	
     $xml_item = $xml->createElement("item");
     $xml_item->appendChild($xml->createElement("title", utf8_decode($item["Intitule"])));
-    $xml_item->appendChild($xml->createElement("link", "http://172.16.2.21/Offre.php?identifiant=" . $item["Identifiant"]));
+	$xml_item->appendChild($xml->createElement("link", "http://172.16.2.21/Vue/offre.php"));
     $xml_item->appendChild($xml->createElement("DescriptionPoste", utf8_decode($item["DescriptionPoste"])));
     $xml_item->appendChild($xml->createElement("Reference",$item["Reference"]));
     $xml_item->appendChild($xml->createElement("DateDebutContrat", $item["DateDebutContrat"]));
